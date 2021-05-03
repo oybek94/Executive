@@ -336,3 +336,64 @@ html {
    content: "";
 }
 
+/* NEWS */
+
+.news {
+   background-color: #fafafa;
+   padding: 102px 0 124px 0;
+}
+
+.news-content {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.news-card {
+   width: 344px;
+   margin-right: 46px;
+   margin-bottom: 46px;
+   background: #FFFFFF;
+   box-shadow: 0px 6px 42px rgba(0, 0, 0, 0.103884);
+   border-radius: 10px;
+   text-decoration: none;
+}
+
+.news-card__img {
+   width: 100%;
+   height: auto;
+}
+
+.time {
+   display: block;
+   position: relative;
+   padding: 28px 28px 0 56px;
+   margin-bottom: 15px;
+   font-weight: 900;
+   font-size: 16px;
+   line-height: 19px;
+   color: #565656;
+}
+
+.time::before {
+   position: absolute;
+   background: url("/img/calendar.svg") no-repeat center center;
+   width: 24px;
+   height: 24px;
+   left: 24px;
+   content: "";
+}
+
+.news-card__title {
+   padding: 0 26px;
+   margin-bottom: 62px;
+   font-weight: bold;
+   font-size: 22px;
+   line-height: 26px;
+   color: #252525;   
+}
+
+.news-btn {
+   text-align: center;
+   margin-top: 100px;
+}
