@@ -230,4 +230,109 @@ html {
    text-align: center;
 }
 
-/*  */
+.services-cards {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.card {
+   width: 344px;
+   padding: 30px 17px 30px 30px;
+   background: #FFFFFF;
+   box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+   border-radius: 15px;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+
+.services-card {
+   margin-right: 47px;
+   margin-bottom: 56px;
+}
+.services-card__round {
+   margin-bottom: 30px;
+   width: 76px;
+   height: 76px;
+   border-radius: 50%;
+}
+
+.career {
+   background: url("/img/career.svg") no-repeat center center;
+}
+
+.bookmark {
+   background: url("/img/bookmark.svg") no-repeat center center;
+}
+
+.checked {
+   background: url("/img/checked.svg") no-repeat center center;
+}
+
+.home {
+   background: url("/img/home.svg") no-repeat center center;
+}
+
+.airplane {
+   background: url("/img/airplane.svg") no-repeat center center;
+}
+
+.blue {
+   background-color: #717cff;
+}
+
+.red {
+   background-color: #FF5959;
+}
+
+.green {
+   background-color: #70CE88;
+}
+
+.light-blue {
+   background-color: #5C96FF; 
+}
+
+.light-red {
+   background-color: #FA706C; 
+}
+
+.services-card__title {
+   margin-top: 0;
+   margin-bottom: 9px;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 37px;
+   color: #37474F;
+}
+
+.services-card__text {
+   margin-top: 0;
+   margin-bottom: 25px;
+   font-size: 16px;
+   line-height: 28px;
+   letter-spacing: 0.444444px;
+   color: rgba(55, 71, 79, 0.721569);
+}
+
+.services-card__link {
+   position: relative;
+   font-weight: 700;
+   font-size: 17px;
+   line-height: 20px;
+   letter-spacing: 0.439286px;
+   color: #717CFF;
+   text-decoration: none;
+}
+
+.services-card__link::before {
+   position: absolute;
+   background-image: url("/img/arrow.png");
+   width: 28px;
+   height: 24px;
+   top: 0;
+   left: 110px;
+
+   content: "";
+}
+
