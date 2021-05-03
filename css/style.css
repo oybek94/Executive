@@ -75,6 +75,7 @@ html {
    border: 2px solid #717cff;
    border-radius: 10px;
    text-decoration: none;
+   white-space: nowrap;
 }
 
 .btn:hover {
