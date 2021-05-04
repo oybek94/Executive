@@ -631,4 +631,56 @@ html {
    margin: 0;
 }
 
+/* FOOTER */
 
+.footer {
+   padding: 64px 0 45px 0;
+   background-color: #717CFF;
+}
+
+.footer-content {
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer-logo {
+   margin-bottom: 26px;
+}
+
+.address {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   color: #EEEEEE;
+}
+
+.footer-list {
+   padding: 0;
+   list-style: none;
+}
+
+.footer-link {
+   font-size: 18px;
+   line-height: 49px;
+   color: #EEEEEE;
+   text-decoration: none;
+}
+
+.social-footer {
+   position: relative;
+   margin: 0;
+   align-items: flex-end;
+   bottom: 28px;
+}
+
+.footer-info, 
+.footer-list {
+   padding-right: 20px;
+}
+
+.copyright {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 32px;
+   color: #EEEEEE;
+}
