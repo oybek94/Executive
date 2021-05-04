@@ -512,3 +512,93 @@ html {
    color: #373737;
 }
 
+.countries {
+   padding: 82px 160px 136px 144px;
+   background-color: #fafafa;
+}
+
+.countries-content {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 70px;
+}
+
+.countries-card {
+   width: 348px;
+   margin-right: 46px;
+}
+
+.countries-card__image {
+   margin-bottom: 27px;
+   border-radius: 29px;
+}
+
+.countries-card__title {
+   margin-top: 0;
+   margin-bottom: 11px;
+   font-weight: 900;
+   font-size: 25px;
+   line-height: 29px;
+   color: #37474F;
+}
+
+.countries-card__text {
+   margin: 0;
+   font-size: 16px;
+   line-height: 27px;
+   color: rgba(55, 71, 79, 0.721569);
+}
+
+/* TESTIMONIAL */
+
+.testimonial {
+   padding: 115px 0 98px 0;
+   overflow: auto;
+}
+
+.testimonial-content {
+   display: flex;
+   margin-bottom: 84px;
+   overflow: auto;
+}
+
+.testimonial-card {
+   padding: 39px 34px 46px 34px;
+   margin-right: 61px;
+   min-width: 500px;
+}
+
+.testimonial-card__header {
+   display: flex;
+   margin-bottom: 30px;
+}
+
+.testimonial-card__avatar {
+   margin-right: 28px;
+   border-radius: 12px;
+}
+
+.testimonial-card__name {
+   margin-top: 0;
+   margin-bottom: 4px;
+   font-weight: 900;
+   font-size: 22px;
+   line-height: 26px;
+   color: #37474F;
+}
+
+.testimonial-card__position {
+   font-size: 18px;
+   line-height: 21px;
+   color: #37474F;
+   opacity: 0.65;
+}
+
+.testimonial-card__text {
+   margin: 0;
+   font-size: 18px;
+   line-height: 31px;
+   color: rgba(55, 71, 79, 0.721569);
+}
+
+
