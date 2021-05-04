@@ -231,7 +231,8 @@ html {
    border: none;
 }
 
-.slider-active {
+.slider-active,
+.slider-btn:hover {
    width: 14px;
    height: 14px;
    background-color: #717cff;
@@ -397,7 +398,7 @@ html {
    border-top-right-radius: 10px;
 }
 
-.time {
+.date {
    display: block;
    position: relative;
    padding: 28px 28px 0 56px;
@@ -408,7 +409,7 @@ html {
    color: #565656;
 }
 
-.time::before {
+.date::before {
    position: absolute;
    background: url("/img/calendar.svg") no-repeat center center;
    width: 24px;
@@ -430,3 +431,84 @@ html {
    text-align: center;
    margin-top: 100px;
 }
+
+/* EVENTS */
+
+.events {
+   padding: 105px 0;
+}
+
+.events-content {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 80px;
+}
+
+.events-card:not(:last-child) {
+   margin-right: 47px;
+}
+
+.events-card {
+   width: 540px;
+   padding: 30px;
+   background: #FFFFFF;
+   box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+   border-radius: 15px;
+}
+
+.events-card__header {
+   display: flex;
+   margin-bottom: 28px;
+}
+
+.events-card__date {
+   padding: 12px 22px;
+   margin: 0;
+   margin-right: 42px;
+   background: #717dff1c;
+   border-radius: 11px;
+   text-align: center;
+   font-weight: 900;
+   font-size: 18px;
+   line-height: 21px;
+   color: #717CFF;
+}
+
+.special-date {
+   font-weight: bold;
+   font-size: 27px;
+   line-height: 32px;
+   color: #717CFF;
+}
+
+.events-card__title {
+   margin: 0;
+   font-weight: bold;
+   font-size: 24px;
+   line-height: 37px;
+   color: #37474F;
+}
+
+.events-card__text {
+   margin-top: 0;
+   margin-bottom: 25px;
+   font-size: 16px;
+   line-height: 28px;
+   letter-spacing: 0.444444px;
+   color: rgba(55, 71, 79, 0.721569);
+}
+
+.events-card__footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.time {
+   font-weight: 900;
+   font-size: 16px;
+   line-height: 28px;
+   letter-spacing: 0.444444px;
+   color: #373737;
+}
+
