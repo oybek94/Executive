@@ -553,13 +553,18 @@ html {
 
 .testimonial {
    padding: 115px 0 98px 0;
-   overflow: auto;
 }
+
 
 .testimonial-content {
    display: flex;
-   margin-bottom: 84px;
-   overflow: auto;
+   margin-bottom: 84px; 
+   overflow-y: auto;  
+}
+
+.testimonial-content::-webkit-scrollbar {
+   width: 0;  
+   background: transparent; 
 }
 
 .testimonial-card {
