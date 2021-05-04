@@ -107,7 +107,8 @@ html {
 .btn:hover,
 .logo:active,
 .universities-link:hover, 
-.services-card__link:hover {
+.services-card__link:hover,
+.footer-link:hover {
    opacity: 0.8;
 }
 
@@ -224,8 +225,7 @@ html {
 
 .slider-btn {
    margin-right: 21px;
-   width: 10px;
-   height: 10px;
+   height: 11px;
    background-color: #7C7C7C51;
    border-radius: 50%;
    border: none;
@@ -609,7 +609,7 @@ html {
 /* APPLY */
 
 .apply {
-   padding: 82px 0 74px 0;
+   padding: 86px 0 78px 0;
    background-color: #fafafa;
 }
 
