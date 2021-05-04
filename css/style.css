@@ -606,4 +606,29 @@ html {
    color: rgba(55, 71, 79, 0.721569);
 }
 
+/* APPLY */
+
+.apply {
+   padding: 82px 0 74px 0;
+   background-color: #fafafa;
+}
+
+.apply-content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.apply-content__text {
+   margin: 0;
+   font-weight: 700;
+   font-size: 37px;
+   line-height: 43px;
+   color: #252525;
+}
+
+.apply-btn {
+   margin: 0;
+}
+
 
