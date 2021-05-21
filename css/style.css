@@ -50,6 +50,8 @@ img {
 /* HEADER-NAV */
 
 .nav {
+   display: flex;
+   align-items: center;
    margin-left: auto;
 }
 .nav__list {
@@ -137,6 +139,7 @@ img {
 .hero-content {
    width: 50%;
    padding-right: 50px;
+   order: 2;
 }
 
 .main-title {
@@ -709,6 +712,39 @@ img {
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 1024px) {
+   
+   .hero {
+      background-position: calc(50% + 434px) 0px;
+   }
+
+   .hero-wrapper {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+   }
+   
+   .hero-content {
+      width: 80%;
+      order: 2;
+   }
+   
+   .main-title {
+      margin-top: 40px;
+      margin-bottom: 15px;
+      font-weight: 900;
+      font-size: calc(30px + 20 * (100vw / 1920));
+      line-height: 66px;
+      color: #2F2F2F;
+   }
+   
+   .hero-image {
+      background-position: center;
+   }
+
+   .social {
+      justify-content: center;
+      align-items: center;
+   }
    
 }
 
