@@ -975,6 +975,17 @@ img {
   .countries-card {
      text-align: center;
   }
+
+  /* TESTIMONIAL */
+
+  .testimonial {
+     padding: 50px 0;
+  }
+
+  .testimonial-list {
+     margin-bottom: 0;
+  }
+  
 }
 
 /* Portrait phones and smaller */
