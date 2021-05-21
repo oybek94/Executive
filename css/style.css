@@ -924,9 +924,47 @@ img {
      margin-bottom: 0;
   }
 
+  /* EVENTS */
+
+  .events {
+     padding: 50px 0;
+  }
+
+  .events-content {
+     flex-direction: column;
+     align-items: center;
+  }
+
+  .events-card:not(:last-child) {
+     margin-right: 0;
+     margin-bottom: 40px;
+  }
+
+  .events-card {
+     width: auto;
+  }
+
+  .events-card__header {
+     flex-direction: column-reverse;
+  }
+
+  .events-card__date {
+     margin-right: 0;
+  }
+
+  .events-card__date br {
+     display: none;
+  }
 }
 
 /* Portrait phones and smaller */
 @media (max-width: 480px) {
+   .events-card__footer {
+      flex-direction: column-reverse;
+      align-items: start;
+   }
 
+   .time {
+      margin-bottom: 20px;
+   }
 }
