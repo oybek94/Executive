@@ -997,6 +997,12 @@ img {
      margin-bottom: 40px;
   }
 
+  /* FOOTER */
+
+  .footer-content {
+     flex-direction: column;
+  }
+
 }
 
 /* Portrait phones and smaller */
