@@ -985,7 +985,18 @@ img {
   .testimonial-list {
      margin-bottom: 0;
   }
-  
+
+  /* APPLY */
+
+  .apply-content {
+     flex-direction: column;
+     text-align: center;
+  }
+
+  .apply-content__text {
+     margin-bottom: 40px;
+  }
+
 }
 
 /* Portrait phones and smaller */
