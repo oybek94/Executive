@@ -955,6 +955,26 @@ img {
   .events-card__date br {
      display: none;
   }
+
+  /* COUNTRIES */
+
+  .countries-list {
+     flex-direction: column;
+     align-items: center;
+  }
+
+  .countries-card:not(:last-child) {
+     margin-right: 0; 
+     margin-bottom: 40px;
+  }
+
+  .countries-card__image {
+     margin-bottom: 0;
+  }
+
+  .countries-card {
+     text-align: center;
+  }
 }
 
 /* Portrait phones and smaller */
